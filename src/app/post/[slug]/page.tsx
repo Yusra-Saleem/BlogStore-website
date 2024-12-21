@@ -83,7 +83,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
           </div>
         </article>
 
-        <Comments postSlug={params.slug} />
+        <Comments />
       </div>
     </div>
   )
