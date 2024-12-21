@@ -7,13 +7,9 @@ const initialComments = [
   { id: 1, author: 'John Smith', content: 'Great recipe! I\'ll definitely try this.', date: 'May 16, 2023' },
   { id: 2, author: 'Alice Johnson', content: 'These cupcakes look delicious!', date: 'May 17, 2023' },
 ]
-interface CommentsProps {
 
-  postSlug: string;
 
-}
-
-export default function Comments({ postSlug }: CommentsProps) {
+export default function Comments() {
   const [comments, setComments] = useState(initialComments)
   const [newComment, setNewComment] = useState('')
   const [editCommentId, setEditCommentId] = useState<number | null>(null)
