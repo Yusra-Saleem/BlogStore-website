@@ -95,7 +95,7 @@ export default function Comments() {
                   <span className="text-sm text-gray-600">{comment.date}</span>
                 </div>
                 <p>{comment.content}</p>
-                {comment.author === 'Current User' && (
+                {comment.author === 'You' && (
                   <div className="mt-2 flex gap-2">
                     <button
                       onClick={() => startEditing(comment.id, comment.content)}
