@@ -90,7 +90,7 @@ export default function AboutPage() {
               { name: 'John Smith', role: 'Senior Tech Writer', image: '/writer/john-smith.png' },
               { name: 'Emily Johnson', role: 'UX/UI Specialist', image: '/writer/john-smith.png' },
              
-              { name: 'John Doe', role: 'Community Manager', image: '/writer/john-Doe.png' },
+              { name: 'John Doe', role: 'Community Manager', image: '/writer/john-smith.png' },
             ].map((member, index) => (
               <motion.div
                 key={member.name}
