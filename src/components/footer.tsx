@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p className="text-gray-400">&copy; 2023 BlogStore. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2023 BlogStore-by YUSRA SALEEM. All rights reserved.</p>
         </div>
       </div>
     </footer>
